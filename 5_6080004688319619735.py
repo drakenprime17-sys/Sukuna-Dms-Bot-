@@ -34,7 +34,7 @@ MONGO_URL = os.getenv("MONGO_URL", "")
 ADMINS = [6436654388]
 BOT_NAME = "𝗦𝘂𝗸𝘂𝗻𝗮 𝗗𝗺𝘀 𝗜𝗻𝗰𝗿𝗲𝗮𝘀𝗲𝗿 ✨🩵"
 BOT_USERNAME = "@SukunaDms_Bot"
-SUPPORT_USERNAME = os.getenv("SUPPORT_USERNAME", "")
+SUPPORT_USERNAME = os.getenv("@SUKUNAxERA", "")
 bot = Client("Sukuna_Dms_Bot", api_id=API_ID, api_hash=API_HASH, bot_token=BOT_TOKEN, in_memory=True)
 
 # ================= 🌟 CUSTOMIZATION HUB 🌟 =================
@@ -360,7 +360,7 @@ Welcome to <b>{BOT_NAME}</b>. Use the bot responsibly and follow Telegram's rule
 {E_CHK} Expand your audience securely!
 🎁 Claim your <b>{free_limit} Free DMs</b> trial today.
 
-Powered by - <b>{BOT_USERNAME}</b>"""
+Devloped by - <b>{@SUKUNAxERA}</b>"""
 
     btns = [
         [ibtn("START MASS DM CAMPAIGN", "start_dm", style="success", icon=BTN_EMOJIS["start"])],
