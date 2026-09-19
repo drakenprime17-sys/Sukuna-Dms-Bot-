@@ -360,7 +360,7 @@ Welcome to <b>{BOT_NAME}</b>. Use the bot responsibly and follow Telegram's rule
 {E_CHK} Expand your audience securely!
 🎁 Claim your <b>{free_limit} Free DMs</b> trial today.
 
-Devloped by - <b>{@SUKUNAxERA}</b>"""
+Devloped by - <b>@SUKUNAxERA</b>"""
 
     btns = [
         [ibtn("START MASS DM CAMPAIGN", "start_dm", style="success", icon=BTN_EMOJIS["start"])],
